@@ -1,0 +1,275 @@
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  background: url(../images/oriental.png);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a:link {
+  color: #4aaaa5;
+}
+
+a:visited {
+  color: #204b49;
+}
+
+header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: .5fr 2.6fr 1fr .5fr .5fr .5fr 1fr;
+  grid-column-gap: 1px;
+  background-color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 2px solid #cccccc;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+#aboutmesection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.25fr 0.25fr 1fr 1fr;
+  width: 1000px;
+  background-color: #ffffff;
+  border: 3px solid #dddddd;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  padding: 25px;
+}
+
+#name {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  height: 100%;
+}
+
+#about {
+  color: #ffffff;
+  grid-row: 1 / span 1;
+  grid-column: 4 / span 1;
+  margin: auto;
+  font-size: 20px;
+}
+
+#portfolio {
+  color: #ffffff;
+  grid-row: 1 / span 1;
+  grid-column: 5 / span 1;
+  margin: auto;
+  font-size: 20px;
+}
+
+#contact {
+  color: #ffffff;
+  grid-row: 1 / span 1;
+  grid-column: 6 / span 1;
+  margin: auto;
+  font-size: 20px;
+}
+
+#aboutmetitle {
+  color: #4aaaa5;
+  grid-column: 1 /span 3;
+  grid-row: 1 / span 1;
+  margin-left: 20px;
+  margin-top: 15px;
+  text-align: left
+}
+
+#horizontalline {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  padding: 0px 15px 0px 15px;
+}
+
+#aboutmepic {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  text-align: center;
+}
+
+#mypicture {
+  height: 250px;
+  width: 250px;
+}
+
+#aboutmeparagraph1 {
+  display: flex;
+  align-items: center;
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 1;
+}
+
+#aboutmeparagraph2 {
+  display: flex;
+  align-items: center;
+  grid-column: 1 / span 3;
+  grid-row: 4 span 1;
+  padding-right: 15px;
+}
+
+#contactform {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.25fr 0.25fr 1fr 1fr 3fr 1fr;
+  width: 1000px;
+  background-color: #ffffff;
+  border: 3px solid #dddddd;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  padding: 15px;
+}
+
+#nameenter {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 1;
+}
+
+#emailenter {
+  grid-row: 4 / span 1;
+  grid-column: 1 / span 1
+}
+
+#messageenter {
+  grid-row: 5 / span 1;
+  grid-column: 1 / span 1;
+}
+
+#ymessage {
+  height: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit {
+  grid-row: 6 / span 1;
+  grid-column: 1 / span 1;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: #777777;
+  padding: 15px 15px;
+  border: 3px solid #dddddd;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#portfoliobody {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.25fr 0.25fr 1fr 1fr 1fr;
+  width: 1000px;
+  background-color: #ffffff;
+  border: 3px solid #dddddd;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  padding: 15px;
+  grid-row-gap: 30px;
+  grid-column-gap: 15px;
+}
+
+.portpic {
+  height: 200px;
+  width: 300px;
+  text-align: center;
+}
+
+#portpic1 {
+  display: grid;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  margin: auto;
+}
+
+#portpic2 {
+  display: grid;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+  margin: auto;
+}
+
+#portpic3 {
+  display: grid;
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+  margin: auto;
+}
+
+#portpic4 {
+  display: grid;
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+  margin: auto;
+}
+
+#portpic5 {
+  display: grid;
+  grid-column: 1 / span 1;
+  grid-row: 5 / span 1;
+  margin: auto;
+}
+
+#caption {
+  position: absolute;
+  color: white;
+  height: 60px;
+  width: 300px;
+  background-color: #4aaaa5;
+  margin-top: 130px;
+  text-align: center;
+  padding: 15px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  color: #cccccc;
+  background-color: #666666;
+  width: 100%;
+  height: 40px;
+  border-top: 10px solid #4aaaa5;
+  padding-top: 10px;
+}
+
+#copyright {
+  bottom: 0px;
+}
