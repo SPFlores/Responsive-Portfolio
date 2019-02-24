@@ -260,7 +260,7 @@ a:visited {
     font-size: 10px;
   }
   p {
-    font-size: 12px;
+    font-size: 16px;
   }
   header {
     display: grid;
@@ -271,7 +271,7 @@ a:visited {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 1px solid #cccccc;
     width: 100%;
-    height: 40px;
+    height: 45px;
     position: fixed;
     top: 0px;
     z-index: 1;
@@ -282,8 +282,7 @@ a:visited {
     grid-row: 1 / span 1;
     grid-column: 2 / span 1;
     margin: auto;
-    padding-top: 8px;
-    padding: 0px;
+    padding-top: 10px;
     height: 100%;
   }
   #about {
@@ -315,38 +314,40 @@ a:visited {
     background-color: #ffffff;
     border: 2px solid #dddddd;
     margin: auto;
-    margin-top: 45px;
+    margin-top: 60px;
     margin-bottom: 45px;
     padding: 12px;
   }
   #aboutmetitle {
     color: #4aaaa5;
-    grid-column: 1 /span 1;
+    grid-column: 1 / span 1;
     grid-row: 1 / span 1;
     margin-left: 15px;
     margin-top: 10px;
     text-align: left
   }
   #horizontalline {
-    grid-column: 1 / span 1;
+    grid-column: 1 / span 2;
     grid-row: 2 / span 1;
     padding: 0px 5px 0px 5px;
   }
   #mypicture {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 5px;
   }
   #aboutmeparagraph1 {
     display: flex;
     align-items: center;
-    grid-column: 2 / span 2;
+    grid-column: 1 / span 1;
     grid-row: 3 / span 1;
     margin: 7px;
   }
   #aboutmeparagraph2 {
     display: flex;
     align-items: center;
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 1;
     grid-row: 4 / span 1;
   }
   #contactform {
@@ -357,7 +358,7 @@ a:visited {
     background-color: #ffffff;
     border: 2px solid #dddddd;
     margin: auto;
-    margin-top: 45px;
+    margin-top: 60px;
     margin-bottom: 45px;
     padding: 8px;
   }
@@ -403,13 +404,13 @@ a:visited {
   }
   #portfoliobody {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.25fr 0.25fr 1fr 1fr 1fr;
     width: 80%;
     background-color: #ffffff;
     border: 3px solid #dddddd;
     margin: auto;
-    margin-top: 45px;
+    margin-top: 60px;
     margin-bottom: 45px;
     padding: 12px;
     grid-row-gap: 30px;
@@ -467,9 +468,9 @@ a:visited {
     color: #cccccc;
     background-color: #666666;
     width: 100%;
-    height: 20px;
+    height: 40px;
     border-top: 5px solid #4aaaa5;
-    padding-top: 3px;
+    padding-top: 10px;
     padding-bottom: 10px;
   }
   #copyright {
