@@ -99,8 +99,8 @@ a:visited {
   }
   #mypicture {
     width: 90%;
-    float: left;
     padding-left: 8%;
+    margin-bottom: 3%;
   }
   #aboutmeparagraph1 {
     display: flex;
