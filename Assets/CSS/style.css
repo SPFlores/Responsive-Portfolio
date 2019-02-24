@@ -189,8 +189,8 @@ a:visited {
     padding: 5px 10px 15px 10px;
   }
   .portpic {
-    height: 100px;
-    width: 150px;
+    height: 110px;
+    width: 170px;
     text-align: center;
   }
   #portpic1 {
@@ -226,12 +226,12 @@ a:visited {
   #caption {
     position: absolute;
     color: white;
-    height: 30px;
-    width: 150px;
+    height: 35px;
+    width: 170px;
     background-color: #4aaaa5;
-    margin-top: 65px;
+    margin-top: 70px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
   }
   footer {
     position: fixed;
