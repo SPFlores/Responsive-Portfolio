@@ -130,7 +130,10 @@ a:visited {
     margin: auto;
     margin-top: 45px;
     margin-bottom: 45px;
-    padding: 8px;
+    padding: 5px 10px 15px 10px;
+  }
+  #inputtitle {
+    font-size: 16px;
   }
   #nameenter {
     grid-row: 3 / span 1;
@@ -174,8 +177,8 @@ a:visited {
   }
   #portfoliobody {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.25fr 0.25fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 0.25fr 1fr 1fr 1fr 1fr 1fr;
     width: 80%;
     background-color: #ffffff;
     border: 3px solid #dddddd;
@@ -183,7 +186,7 @@ a:visited {
     margin-top: 45px;
     margin-bottom: 45px;
     padding: 12px;
-    grid-row-gap: 30px;
+    grid-row-gap: 10px;
     grid-column-gap: 15px;
   }
   .portpic {
@@ -199,26 +202,26 @@ a:visited {
   }
   #portpic2 {
     display: grid;
-    grid-column: 2 / span 1;
-    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
     margin: auto;
   }
   #portpic3 {
     display: grid;
     grid-column: 1 / span 1;
-    grid-row: 4 / span 1;
+    grid-row: 5 / span 1;
     margin: auto;
   }
   #portpic4 {
     display: grid;
-    grid-column: 2 / span 1;
-    grid-row: 4 / span 1;
+    grid-column: 1 / span 1;
+    grid-row: 6 / span 1;
     margin: auto;
   }
   #portpic5 {
     display: grid;
     grid-column: 1 / span 1;
-    grid-row: 5 / span 1;
+    grid-row: 7 / span 1;
     margin: auto;
   }
   #caption {
