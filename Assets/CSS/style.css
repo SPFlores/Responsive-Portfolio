@@ -178,19 +178,19 @@ a:visited {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.1fr 1fr 1fr 1fr 1fr 1fr;
-    width: 80%;
+    width: 90%;
     background-color: #ffffff;
-    border: 3px solid #dddddd;
+    border: 2px solid #dddddd;
     margin: auto;
-    margin-top: 45px;
+    margin-top: 105px;
     margin-bottom: 45px;
-    grid-column-gap: 15px;
     padding: 5px 10px 15px 10px;
   }
   .portpic {
-    height: 110px;
-    width: 170px;
+    height: 225px;
+    width: 350px;
     text-align: center;
+    margin-top: 10px;
   }
   #portpic1 {
     display: grid;
@@ -225,12 +225,12 @@ a:visited {
   #caption {
     position: absolute;
     color: white;
-    height: 35px;
-    width: 170px;
+    height: 60px;
+    width: 350px;
     background-color: #4aaaa5;
-    margin-top: 70px;
+    margin-top: 160px;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
   }
   footer {
     position: fixed;
