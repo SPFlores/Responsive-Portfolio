@@ -12,8 +12,6 @@ a:visited {
   color: #204b49;
 }
 
-/* Extra small devices (phones, 600px and down) */
-
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 15px;
@@ -249,8 +247,6 @@ a:visited {
     bottom: 0px;
   }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
   h1 {
@@ -488,8 +484,6 @@ a:visited {
     bottom: 0px;
   }
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
   h1 {
