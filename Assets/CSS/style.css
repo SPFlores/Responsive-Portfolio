@@ -34,7 +34,7 @@ a:visited {
   header {
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: .5fr 2.5fr 1fr .5fr .5fr .5fr 1fr;
+    grid-template-columns: .25fr 2fr .75fr .4fr .4fr .4fr .75fr;
     grid-column-gap: 5px;
     background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
